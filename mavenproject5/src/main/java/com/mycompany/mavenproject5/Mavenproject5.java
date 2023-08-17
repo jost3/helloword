@@ -14,6 +14,7 @@ public class Mavenproject5 {
         
         int h1 = 10;
         int h2 = 20;
+        int suma = h1+h2;
         System.out.println("Hello World!");
     }
 }
