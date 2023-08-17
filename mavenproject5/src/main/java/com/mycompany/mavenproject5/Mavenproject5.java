@@ -4,6 +4,7 @@
 
 package com.mycompany.mavenproject5;
 import java.util.Scanner;
+import javax.swing.JOptionPane;
 /**
  *
  * @author Alumno
@@ -29,5 +30,16 @@ public class Mavenproject5 {
         int resta1= num-num1;
         System.out.println("la suma es de : "+suma1);
         System.out.println("la resta de : "+resta1);
+        
+        String entrada1= JOptionPane.showInputDialog("ingrsa el primer numero: ");
+        int num2 = Integer.parseInt(entrada1);
+        String entrada2= JOptionPane.showInputDialog("ingrsa el segundo  numero: ");
+        int num3 = Integer.parseInt(entrada2);
+        int suma2 = num2+num3;
+        int resta2 = num2-num3;
+        
+        String salida = "suma : "+suma2+ "resta"+resta2;
+        JOptionPane.showMessageDialog(null,salida);
+        
     }
 }
