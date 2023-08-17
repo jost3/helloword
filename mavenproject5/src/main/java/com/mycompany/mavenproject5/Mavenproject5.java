@@ -17,5 +17,6 @@ public class Mavenproject5 {
         int suma = h1+h2;
         int resta = h1-h2;
         System.out.println("la suma es de "+suma);
+        System.out.println("la resta es de"+resta);
     }
 }
